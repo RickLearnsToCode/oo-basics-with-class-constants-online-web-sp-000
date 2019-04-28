@@ -7,7 +7,7 @@ class Book
     @genre = genre
     if !GENRES.include?(genre)
       GENRES << genre
-    end      
+    end
   end
 
   def initialize(title)
